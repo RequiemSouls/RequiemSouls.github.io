@@ -32,7 +32,6 @@ const LocationStat = ({
       </p>
     </section>
     <hr color="red" />
-    <LocationSummary />
     <YearStat year="Total" onClick={changeYear} />
   </div>
 );
