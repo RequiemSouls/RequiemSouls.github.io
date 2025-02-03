@@ -75,7 +75,7 @@ jobs:
         with:
           node-version: '20'
       - name: Enable corepack
-        run: npm install -g corepack@latest && corepack enable pnpm 
+        run: npm install -g corepack@latest && corepack enable pnpm
 
       - name: Get pnpm store directory
         shell: bash
@@ -93,7 +93,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build
-        run: PATH_PREFIX=/${{ github.event.repository.name }} pnpm build
+        run: PATH_PREFIX=/ pnpm build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
