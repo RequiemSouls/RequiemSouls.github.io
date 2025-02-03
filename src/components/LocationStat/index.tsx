@@ -33,8 +33,6 @@ const LocationStat = ({
     </section>
     <hr color="red" />
     <LocationSummary />
-    <CitiesStat onClick={changeCity} />
-    <PeriodStat onClick={changeTitle} />
     <YearStat year="Total" onClick={changeYear} />
   </div>
 );
