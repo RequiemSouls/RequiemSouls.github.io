@@ -12,7 +12,7 @@ interface ISiteMetadataResult {
 const data: ISiteMetadataResult = {
   siteTitle: 'Riding Page',
   siteUrl: 'https://www.code4what.com/run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+  logo: 'https://dgalywyr863hv.cloudfront.net/pictures/strava_o_auth/applications/143901/34589567/2/large.jpg',
   description: 'Ride to the hell',
   navLinks: [
     {
